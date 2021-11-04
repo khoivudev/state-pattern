@@ -27,6 +27,10 @@ public class GumballMachine {
         }
     }
 
+    public void refill(int numberGumballs) {
+        this.count += numberGumballs;
+    }
+
     public void insertQuarter() {
         state.insertQuarter();
     }

@@ -21,5 +21,8 @@ public class GumballMachineTetsDrive {
         gumballMachine.insertQuarter();
         gumballMachine.turnCrank();
         System.out.println(gumballMachine);
+
+        gumballMachine.refill(10);
+        System.out.println(gumballMachine);
     }
 }
